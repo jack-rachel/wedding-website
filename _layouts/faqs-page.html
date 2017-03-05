@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% include head.html %}
+{% include nav.html %}
+
+<div class="jumbotron">
+  <div class="header-spacer">
+  </div>
+</div>
+
+{% for post in site.posts %}
+  <div class="container">
+    <div>
+      <h2 class="navy-bars">{{ post.title }}</h2>
+      {{ post.content }}
+    </div>
+    <footer></footer>
+  </div> <!-- /container -->
+{% endfor %}
+
+{% include footer.html %}
