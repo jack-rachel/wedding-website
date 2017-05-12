@@ -30,6 +30,8 @@ hr {
 
 footer {
   padding: 1.5em;
+  color: #777;
+  font-size: 0.8em;
 }
 
 .navbar-title {
@@ -176,7 +178,6 @@ footer {
 }
 
 #gifting-nav {
-  opacity: 0.3;
   background-image: url("../img/calligraphy/gifting.png");
   background-size:contain;
   background-repeat: no-repeat;
@@ -184,7 +185,6 @@ footer {
 }
 
 #rsvp-nav {
-  opacity: 0.3;
   background-image: url("../img/calligraphy/rsvp.png");
   background-size:contain;
   background-repeat: no-repeat;
@@ -213,4 +213,11 @@ footer {
 #wedding-date h1 {
   margin: 0 auto;
   /*color: #fff;*/
+}
+
+#gifting-poem p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
